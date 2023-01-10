@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap" rel="stylesheet">
+    <title>SPECIAL DAY</title>
+</head>
+<style>
+    @media(max-width:319px) and (min-width:280px){
+        body{
+            background-color: rgb(245, 243, 210);
+            text-align: center;
+        }
+        .title1{
+            text-align: center;
+            margin-top:100px;
+            background-color: rgb(254, 220, 220);
+            padding:10px;
+            color: rgb(126, 6, 26);
+            font-size: 25px;
+        }
+        .img1{
+            position: fixed;
+            top:-45px;
+            opacity: 80%;
+            z-index: 1;
+            display: block;
+            margin: auto auto;
+        }
+        button{
+            color: rgb(78, 3, 78);
+            background-color: rgb(251, 221, 251);
+            padding:10px;
+            border-radius: 10px;
+            margin:10px;
+            font-size: 14px;
+        }
+        .letter{
+            font-family: 'Kanit';
+            font-size: 17px;
+            margin: 15px 15px 15px 15px;
+            background-color: rgb(218, 250, 250);
+            padding:15px;
+            border-radius: 15px;
+            color:rgb(5, 5, 119);
+        }
+        .down{
+            text-align: center;
+            font-family: 'Kanit';
+            color: red;
+            font-size: 25px;
+        }
+        audio{
+            margin-left: 20px;
+            display: block;
+            margin: auto auto;
+            width: 90%;
+        }
+        video{
+            display: block;
+            margin: auto auto;
+            width: 100%;
+            margin-top: 20px;
+        }
+    }
+
+    @media(max-width:480px) and (min-width:320px){
+        body{
+            background-color: rgb(245, 243, 210);
+        }
+        .title1{
+            text-align: center;
+            margin-top:100px;
+            background-color: rgb(254, 220, 220);
+            padding:10px;
+            color: rgb(126, 6, 26);
+            font-size: 30px;
+        }
+        .img1{
+            position: fixed;
+            top:-45px;
+            opacity: 80%;
+            z-index: 1;
+        }
+        button{
+            color: rgb(78, 3, 78);
+            background-color: rgb(251, 221, 251);
+            padding:10px;
+            border-radius: 10px;
+            margin:10px;
+            font-size: 16px;
+        }
+        .letter{
+            font-family: 'Kanit';
+            font-size: 20px;
+            margin: 20px 25px 20px 25px;
+            background-color: rgb(218, 250, 250);
+            padding:15px;
+            border-radius: 15px;
+            color:rgb(5, 5, 119);
+        }
+        .down{
+            text-align: center;
+            font-family: 'Kanit';
+            color: red;
+        }
+        audio{
+            margin-left: 20px;
+            display: block;
+            margin: auto auto;
+        }
+        video{
+            display: block;
+            margin: auto auto;
+            width: 100%;
+            margin-top: 20px;
+        }
+    }
+
+    @media(max-width:768px) and (min-width:481px){
+        body{
+            background-color: rgb(245, 243, 210);
+        }
+        .title1{
+            text-align: center;
+            margin-top:100px;
+            background-color: rgb(254, 220, 220);
+            padding:10px;
+            color: rgb(126, 6, 26);
+            font-size: 40px;
+        }
+        .img1{
+            position: fixed;
+            top:-50px;
+            width: 100%;
+            opacity: 80%;
+            z-index: -1;
+        }
+        button{
+            color: rgb(78, 3, 78);
+            background-color: rgb(251, 221, 251);
+            padding:10px;
+            border-radius: 10px;
+            margin:10px;
+            font-size: 19px;
+        }
+        .letter{
+            font-family: 'Kanit';
+            font-size: 25px;
+            margin: 20px 25px 20px 25px;
+            background-color: rgb(218, 250, 250);
+            padding:15px;
+            border-radius: 15px;
+            color:rgb(5, 5, 119);
+        }
+        .down{
+            text-align: center;
+            font-family: 'Kanit';
+            color: red;
+        }
+        audio{
+            margin-left: 20px;
+            display: block;
+            margin: auto auto;
+        }
+        video{
+            display: block;
+            margin: auto auto;
+            width: 80%;
+            margin-top: 20px;
+        }
+    }
+
+    @media(max-width:1200px) and (min-width:769px){
+        body{
+            background-color: rgb(245, 243, 210);
+        }
+        .title1{
+            text-align: center;
+            margin-top:100px;
+            background-color: rgb(254, 220, 220);
+            padding:10px;
+            color: rgb(126, 6, 26);
+            font-size: 50px;
+        }
+        .img1{
+            position: fixed;
+            top:-50px;
+            width: 100%;
+            opacity: 80%;
+            z-index: -1;
+        }
+        button{
+            color: rgb(78, 3, 78);
+            background-color: rgb(251, 221, 251);
+            padding:10px;
+            border-radius: 10px;
+            margin:20px;
+            font-size: 25px;
+        }
+        .letter{
+            font-family: 'Kanit';
+            font-size: 30px;
+            margin: 20px 25px 20px 25px;
+            background-color: rgb(218, 250, 250);
+            padding:15px;
+            border-radius: 15px;
+            color:rgb(5, 5, 119);
+        }
+        .down{
+            text-align: center;
+            font-family: 'Kanit';
+            color: red;
+            font-size: 35px;
+        }
+        audio{
+            margin-left: 20px;
+            display: block;
+            margin: auto auto;
+        }
+        video{
+            display: block;
+            margin: auto auto;
+            width: 80%;
+            margin-top: 20px;
+        }
+    }
+
+    @media(min-width:1201px){
+        body{
+            background-color: rgb(245, 243, 210);
+        }
+        .title1{
+            text-align: center;
+            margin-top:90px;
+            background-color: rgb(254, 220, 220);
+            padding:10px;
+            color: rgb(126, 6, 26);
+        }
+        .img1{
+            position: fixed;
+            width:100%;
+            top:-250px;
+            opacity: 80%;
+            z-index: -1;
+           
+        }
+        button{
+            color: rgb(78, 3, 78);
+            background-color: rgb(251, 221, 251);
+            padding:10px;
+            border-radius: 10px;
+            margin:20px;
+            font-size: 16px;
+        }
+        .letter{
+            font-family: 'Kanit';
+            font-size: 20px;
+            margin: 20px 80px 20px 80px;
+            background-color: rgb(218, 250, 250);
+            padding:15px;
+            border-radius: 15px;
+            color:rgb(5, 5, 119);
+        }
+        .down{
+            text-align: center;
+            font-family: 'Kanit';
+            color: red;
+        }
+        audio{
+            margin-left: 20px;
+            display: block;
+            margin: auto auto;
+        }
+        video{
+            display: block;
+            margin: auto auto;
+            margin-top: 20px;
+        }
+    }
+   
+</style>
+<body>
+    <img src="party1.png" width="480px" class="img1">
+    <h1 class="title1">HAPPY BIRTHDAY</h1>
+    
+    <audio controls autoplay>
+        <source src="Happy Birthday song.mp3 " loop="infinite">
+    </audio>
+
+   <video src="happy-birthday.mp4" autoplay loop="infinite"></video>
+   <h1 class="down">&#8595;<br>&#8595;<br><strong>เลื่อนลงไปเลย</strong><br>&#8595;<br>&#8595;</h1>
+   
+   <p class="letter" align="center">สุขสันต์วันเกิดนะอุ้มม ขอให้มีความสุขมากๆ สุขภาพร่างกายแข็งแรง คิดอะไรก็ขอให้สมหวังในทุกๆเรื่องเลย เรื่องมหาลัยก็สู้ๆนะคับ อุ้มทำได้แน่นอน หวังว่าจะได้เป็นสัตวแพทย์ตามที่หวัง แล้วก็ได้เรียนที่ๆอุ้มอยากเรียนนะคับ 
+    ไว้ติดมหาลัยแล้วเรานัดไปเที่ยวกันนะะ เป็นกำลังใจให้ในทุกๆเรื่องเลย แล้วก็ถึงเราจะชอบบู้บี้แกบ่อยๆ แต่เราก็รักแกนะอุ้มเพื่อนรัก5555555 จุ้บๆ &#9829;&#9829;&#9829;</p>
+    <div><p align="center">
+    
+    <a href="greet.html"><button type="button">BACK</button></a>
+    <a href="index.html"><button type="button">HOME</button></a>
+    <a href="final.html"><button type="button">NEXT</button></a>
+    </p>
+    </div>
+</body>
+</html>
